@@ -1,0 +1,149 @@
+[
+    {
+    "id": 1,
+    "name": "1. JavaScript - by Chai aur Code",
+    "topics": [
+      { "id": 1, "name": "1. Introduction of JavaScript", "videoId": "sscX432bMZo", "start": 0, "end": 303, "quizLink": "" },
+      { "id": 2, "name": "2. Setting up environment", "videoId": "sscX432bMZo", "start": 304, "end": 1012, "quizLink": "" },
+      { "id": 3, "name": "3. Save and work on GitHub", "videoId": "sscX432bMZo", "start": 1013, "end": 1633, "quizLink": "" },
+      { "id": 4, "name": "4. let, const, var", "videoId": "sscX432bMZo", "start": 1634, "end": 2633, "quizLink": "" },
+      { "id": 5, "name": "5. Datatypes & ECMA standards", "videoId": "sscX432bMZo", "start": 2634, "end": 3714, "quizLink": "" },
+      { "id": 6, "name": "6. Datatype conversion confusion", "videoId": "sscX432bMZo", "start": 3715, "end": 4485, "quizLink": "" },
+      { "id": 7, "name": "7. Why string to number", "videoId": "sscX432bMZo", "start": 4486, "end": 4785, "quizLink": "" },
+      { "id": 8, "name": "8. Comparison of datatypes", "videoId": "sscX432bMZo", "start": 4786, "end": 5317, "quizLink": "" },
+      { "id": 9, "name": "9. Datatypes summary", "videoId": "sscX432bMZo", "start": 5318, "end": 7000, "quizLink": "" },
+      { "id": 10, "name": "10. Stack and heap memory", "videoId": "sscX432bMZo", "start": 7001, "end": 7593, "quizLink": "" },
+      { "id": 11, "name": "11. String in JavaScript", "videoId": "sscX432bMZo", "start": 7594, "end": 8756, "quizLink": "" },
+      { "id": 12, "name": "12. Number and Maths", "videoId": "sscX432bMZo", "start": 8757, "end": 10353, "quizLink": "" },
+      { "id": 13, "name": "13. Date and Time", "videoId": "sscX432bMZo", "start": 10354, "end": 11446, "quizLink": "" },
+      { "id": 14, "name": "14. Array in JavaScript", "videoId": "sscX432bMZo", "start": 11447, "end": 12581, "quizLink": "" },
+      { "id": 15, "name": "15. Array Part 2", "videoId": "sscX432bMZo", "start": 12582, "end": 13523, "quizLink": "" },
+      { "id": 16, "name": "16. Objects in depth", "videoId": "sscX432bMZo", "start": 13524, "end": 14510, "quizLink": "" },
+      { "id": 17, "name": "17. Objects Part 2", "videoId": "sscX432bMZo", "start": 14511, "end": 15673, "quizLink": "" },
+      { "id": 18, "name": "18. Object Destructuring & JSON API", "videoId": "sscX432bMZo", "start": 15674, "end": 16585, "quizLink": "" },
+      { "id": 19, "name": "19. Functions & parameters", "videoId": "sscX432bMZo", "start": 16586, "end": 17638, "quizLink": "" },
+      { "id": 20, "name": "20. Functions with objects", "videoId": "sscX432bMZo", "start": 17639, "end": 18313, "quizLink": "" },
+      { "id": 21, "name": "21. Global & local scope", "videoId": "sscX432bMZo", "start": 18314, "end": 18910, "quizLink": "" },
+      { "id": 22, "name": "22. Scope level & mini hoisting", "videoId": "sscX432bMZo", "start": 18911, "end": 19787, "quizLink": "" },
+      { "id": 23, "name": "23. this & Arrow function", "videoId": "sscX432bMZo", "start": 19788, "end": 20695, "quizLink": "" },
+      { "id": 24, "name": "24. IIFE (Immediately Invoked Function)", "videoId": "sscX432bMZo", "start": 20696, "end": 21332, "quizLink": "" },
+      { "id": 25, "name": "25. How JS works behind the scene", "videoId": "sscX432bMZo", "start": 21333, "end": 22905, "quizLink": "" },
+      { "id": 26, "name": "26. Control flow in JavaScript", "videoId": "sscX432bMZo", "start": 22906, "end": 26073, "quizLink": "" },
+      { "id": 27, "name": "27. for loop, break & continue", "videoId": "sscX432bMZo", "start": 26074, "end": 27544, "quizLink": "" },
+      { "id": 28, "name": "28. while & do-while loop", "videoId": "sscX432bMZo", "start": 27545, "end": 28163, "quizLink": "" },
+      { "id": 29, "name": "29. Higher Order Array loops", "videoId": "sscX432bMZo", "start": 28164, "end": 30214, "quizLink": "" },
+      { "id": 30, "name": "30. filter, map & reduce", "videoId": "sscX432bMZo", "start": 30215, "end": 31000, "quizLink": "" }
+    ]
+  },
+
+   {
+    "id": 2,
+    "name": "2. JavaScript - by Shradha mam",
+    "topics": [
+      { "id": 1, "name": "1. Introduction", "videoId": "VlPiVmYuoqw", "start": 0, "end": 84, "quizLink": "" },
+      { "id": 2, "name": "2. Variables and Data Types", "videoId": "VlPiVmYuoqw", "start": 85, "end": 4877, "quizLink": "" },
+      { "id": 3, "name": "3. Operators", "videoId": "VlPiVmYuoqw", "start": 4878, "end": 9036, "quizLink": "" },
+      { "id": 4, "name": "4. Loops", "videoId": "VlPiVmYuoqw", "start": 9037, "end": 13409, "quizLink": "" },
+      { "id": 5, "name": "5. Arrays", "videoId": "VlPiVmYuoqw", "start": 13410, "end": 16647, "quizLink": "" },
+      { "id": 6, "name": "6. Functions", "videoId": "VlPiVmYuoqw", "start": 16648, "end": 20339, "quizLink": "" },
+      { "id": 7, "name": "7. DOM Part 1", "videoId": "VlPiVmYuoqw", "start": 20340, "end": 24769, "quizLink": "" },
+      { "id": 8, "name": "8. DOM Part 2", "videoId": "VlPiVmYuoqw", "start": 24770, "end": 26243, "quizLink": "" },
+      { "id": 9, "name": "9. Events", "videoId": "VlPiVmYuoqw", "start": 26244, "end": 28000, "quizLink": "" },
+      { "id": 10, "name": "10. Building Game", "videoId": "VlPiVmYuoqw", "start": 28001, "end": 30497, "quizLink": "" },
+      { "id": 11, "name": "11. Classes", "videoId": "VlPiVmYuoqw", "start": 30498, "end": 33747, "quizLink": "" },
+      { "id": 12, "name": "12. Callback", "videoId": "VlPiVmYuoqw", "start": 33748, "end": 38273, "quizLink": "" },
+      { "id": 13, "name": "13. Fetch API", "videoId": "VlPiVmYuoqw", "start": 38274, "end": 39974, "quizLink": "" },
+      { "id": 14, "name": "14. Project: Currency Converter", "videoId": "VlPiVmYuoqw", "start": 39975, "end": null, "quizLink": "" }
+    ]
+
+  },
+  {
+    "id": 3,
+    "name": "3. Advanced JavaScript ",
+
+"topics": [
+  { "id": 1, "name": "1. Closures", "videoId": "3a0I8ICR1Vg", "start": 0, "end": null, "quizLink": "" },
+  { "id": 2, "name": "2. Currying", "videoId": "iZLP4qOwY8I", "start": 0, "end": null, "quizLink": "" },
+  { "id": 3, "name": "3. Call, Apply, Bind", "videoId": "c0mLRpw-9rI", "start": 0, "end": null, "quizLink": "" },
+  { "id": 4, "name": "4. Higher Order Functions", "videoId": "HkWxvB1RJq0", "start": 0, "end": null, "quizLink": "" },
+  { "id": 5, "name": "5. Debouncing", "videoId": "Zo-6_qx8uxg", "start": 0, "end": null, "quizLink": "" },
+  { "id": 6, "name": "6. Throttling", "videoId": "mh_uoJ5XcHs", "start": 0, "end": null, "quizLink": "" },
+  { "id": 7, "name": "7. Memoization", "videoId": "6Wzj7kxfRdI", "start": 0, "end": null, "quizLink": "" },
+
+  { "id": 8, "name": "8. Callback Hell", "videoId": "QO4NXhWo_NM", "start": 0, "end": null, "quizLink": "" },
+  { "id": 9, "name": "9. Promises (in depth)", "videoId": "DHvZLI7Db8E", "start": 0, "end": null, "quizLink": "" },
+  { "id": 10, "name": "10. Promise chaining", "videoId": "RPLt3TiH6zg", "start": 0, "end": null, "quizLink": "" },
+  { "id": 11, "name": "11. Promise.all / allSettled / race / any", "videoId": "JgW-i2QjgHQ", "start": 0, "end": null, "quizLink": "" },
+  { "id": 12, "name": "12. Async / Await", "videoId": "V_Kr9OSfDeU", "start": 0, "end": null, "quizLink": "" },
+  { "id": 13, "name": "13. Event Loop (Microtask vs Macrotask)", "videoId": "8aGhZQkoFbQ", "start": 0, "end": null, "quizLink": "" },
+
+  { "id": 14, "name": "14. Prototype & Prototype Chain", "videoId": "wstwjQ1yqWQ", "start": 0, "end": null, "quizLink": "" },
+  { "id": 15, "name": "15. ES6 Classes vs Prototypes", "videoId": "Zg3VZ8J2YQU", "start": 0, "end": null, "quizLink": "" },
+  { "id": 16, "name": "16. Object.freeze, seal, assign, entries, values", "videoId": "F5jG6p3xJ3s", "start": 0, "end": null, "quizLink": "" },
+  { "id": 17, "name": "17. Optional chaining (?.)", "videoId": "VYyL5q7U6pI", "start": 0, "end": null, "quizLink": "" },
+  { "id": 18, "name": "18. Nullish coalescing (??)", "videoId": "2qKxFjlb5y4", "start": 0, "end": null, "quizLink": "" },
+
+  { "id": 19, "name": "19. try / catch / finally", "videoId": "WRNBQCl_cPU", "start": 0, "end": null, "quizLink": "" },
+  { "id": 20, "name": "20. Custom errors (Extending Error class)", "videoId": "QO4NXhWo_NM", "start": 0, "end": null, "quizLink": "" },
+
+  { "id": 21, "name": "21. Event Delegation", "videoId": "jq0cKY6Gr6I", "start": 0, "end": null, "quizLink": "" },
+  { "id": 22, "name": "22. Event Bubbling & Capturing", "videoId": "F1anRyL4Z6s", "start": 0, "end": null, "quizLink": "" },
+  { "id": 23, "name": "23. Passive Listeners (Performance)", "videoId": "2VZLvZxgG9c", "start": 0, "end": null, "quizLink": "" },
+  { "id": 24, "name": "24. Web Storage API", "videoId": "GihQAC1I39Q", "start": 0, "end": null, "quizLink": "" },
+  { "id": 25, "name": "25. Cookies Basics", "videoId": "I01XMRo2ESg", "start": 0, "end": null, "quizLink": "" },
+  { "id": 26, "name": "26. Clipboard API", "videoId": "Zz8gU5ZtYzE", "start": 0, "end": null, "quizLink": "" },
+
+  { "id": 27, "name": "27. Drag & Drop API", "videoId": "OHTudicK7nY", "start": 0, "end": null, "quizLink": "" },
+  { "id": 28, "name": "28. Web Workers", "videoId": "k2RmGMwBPbs", "start": 0, "end": null, "quizLink": "" },
+  { "id": 29, "name": "29. Canvas API (Basics)", "videoId": "gm1QtePAYTM", "start": 0, "end": null, "quizLink": "" },
+
+  { "id": 30, "name": "30. ES Modules (import / export)", "videoId": "cRHQNNcYf6s", "start": 0, "end": null, "quizLink": "" },
+  { "id": 31, "name": "31. npm basics", "videoId": "JHDhaSSKmB0", "start": 0, "end": null, "quizLink": "" },
+  { "id": 32, "name": "32. Build tools basics (Webpack / Vite intro)", "videoId": "3tFzxT6Z0bY", "start": 0, "end": null, "quizLink": "" },
+
+  { "id": 33, "name": "33. Spread & Rest operators", "videoId": "iLx4ma8ZqvQ", "start": 0, "end": null, "quizLink": "" },
+  { "id": 34, "name": "34. Symbols", "videoId": "1aXZQcG2Y6I", "start": 0, "end": null, "quizLink": "" },
+  { "id": 35, "name": "35. Iterators & Generators", "videoId": "QO4NXhWo_NM" , "start": 0, "end": null, "quizLink": ""  }
+
+
+]
+},
+{
+ "id": 4,
+  "name": "1. Mini Project -Tic Tac Toe",
+"topics": [
+  { "id": 1, "name": "1. Introduction", "videoId": "sSLGP-_2gOI", "start": 0, "end": 66, "quizLink": "" },
+  { "id": 2, "name": "2. Project Demo", "videoId": "sSLGP-_2gOI", "start": 67, "end": 120, "quizLink": "" },
+  { "id": 3, "name": "3. Project Starts Here", "videoId": "sSLGP-_2gOI", "start": 121, "end": 136, "quizLink": "" },
+  { "id": 4, "name": "4. Creating Initial Files", "videoId": "sSLGP-_2gOI", "start": 137, "end": 202, "quizLink": "" },
+  { "id": 5, "name": "5. Creating Navbar", "videoId": "sSLGP-_2gOI", "start": 203, "end": 516, "quizLink": "" },
+  { "id": 6, "name": "6. Game Skeleton & Styling", "videoId": "sSLGP-_2gOI", "start": 517, "end": 1454, "quizLink": "" },
+  { "id": 7, "name": "7. JavaScript Logic", "videoId": "sSLGP-_2gOI", "start": 1455, "end": 3345, "quizLink": "" },
+  { "id": 8, "name": "8. Adding Responsiveness", "videoId": "sSLGP-_2gOI", "start": 3346, "end": 3660, "quizLink": "" },
+  { "id": 9, "name": "9. Line Animation On Win", "videoId": "sSLGP-_2gOI", "start": 3661, "end": 4697, "quizLink": "" },
+  { "id": 10, "name": "10. Outro", "videoId": "sSLGP-_2gOI", "start": 4698, "end": null, "quizLink": "" },
+    { "id": 12, "name": "11. CodeBase",  "quizLink": "https://drive.google.com/file/d/1hSebQCZn2sC68PADfJ_0Cl-XfYYZ3mrH/view" }
+]
+
+
+},
+{
+
+"id":5,
+"name":"2. Major Project -Spotify Clone",
+"topics": [
+  { "id": 1, "name": "1. Introduction", "videoId": "ANzPM5-lwXc", "start": 0, "end": 114, "quizLink": "" },
+  { "id": 2, "name": "2. Starting", "videoId": "ANzPM5-lwXc", "start": 115, "end": 275, "quizLink": "" },
+  { "id": 3, "name": "3. Navigation Bar", "videoId": "ANzPM5-lwXc", "start": 276, "end": 1004, "quizLink": "" },
+  { "id": 4, "name": "4. Container", "videoId": "ANzPM5-lwXc", "start": 1005, "end": 1115, "quizLink": "" },
+  { "id": 5, "name": "5. Audio Progress Bar (bottom)", "videoId": "ANzPM5-lwXc", "start": 1116, "end": 2264, "quizLink": "" },
+  { "id": 6, "name": "6. Song list", "videoId": "ANzPM5-lwXc", "start": 2265, "end": 3170, "quizLink": "" },
+  { "id": 7, "name": "7. Play Song (JS)", "videoId": "ANzPM5-lwXc", "start": 3171, "end": 5820, "quizLink": "" },
+  { "id": 8, "name": "8. End", "videoId": "ANzPM5-lwXc", "start": 5821, "end": null, "quizLink": "" },
+   { "id": 9, "name": "9. CodeBase",  "quizLink": "https://drive.google.com/file/d/1c6YT2eh_TvX_9aSPixNttEur4tVqm0Kf/view" }
+]
+
+
+}
+
+]

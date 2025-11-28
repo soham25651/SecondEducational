@@ -1,0 +1,17 @@
+ [
+  {
+    "id": 1,
+    "title": "Web Development",
+    "subtopics": ["HTML/CSS", "JavaScript", "React", "Node.js"]
+  },
+  {
+    "id": 2,
+    "title": "Artificial Intelligence",
+    "subtopics": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision"]
+  },
+  {
+    "id": 3,
+    "title": "Cybersecurity",
+    "subtopics": ["Network Security", "Ethical Hacking", "Cryptography"]
+  }
+]

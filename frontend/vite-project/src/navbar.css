@@ -1,0 +1,73 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ background: linear-gradient(135deg, #3380ec, #3a6073);
+
+
+
+
+
+  color: white;
+  padding: 1rem 2rem;
+
+  box-shadow: 0 3px 6px rgba(32, 27, 27, 0.2);
+  
+}
+.navbar-main{
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+  color: white;
+  padding: 1rem 2rem;
+ 
+  
+}
+
+.logo{
+ position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 25px;
+  top: 17px;
+}
+.logodiv{
+  display: flex;
+  align-items: center;
+  gap: 10px;           /* space between logo and text */
+  padding-left: 8px;   /* small left padding */
+  text-decoration: none;
+  
+}
+.logodiv p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffeded;         /* pure dark gray for clean look */
+  font-family: "Poppins", sans-serif;
+  margin: -6px 0px 0px 40px;           /* remove default p tag margin */
+  letter-spacing: 4px;
+
+}
+.navbar-mainpage{
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ background: linear-gradient(135deg, #3380ec, #3a6073);
+  color: white;
+  padding: 1rem 2rem;
+
+  box-shadow: 2px 5px 5px rgba(8, 20, 73, 0.2);
+}
+.backpage{
+  display: flex;
+  gap: 0.5rem;
+  position: fixed;
+  left: 96%;
+  top: 2.8%;
+  color:white;
+cursor: pointer;
+}

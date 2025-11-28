@@ -1,0 +1,99 @@
+
+.authcontainer {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #000000, #4383c7);
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+
+}
+
+
+.loginCard {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 2.5rem 3rem;
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  margin: 0 auto; 
+
+}
+
+.roleToggle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.roleToggle button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.roleToggle button.active {
+  background: #fff;
+  color: #7b2ff7;
+  font-weight: 600;
+  transform: scale(1.05);
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+.submitBtn {
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  background: #fff;
+  color: #7b2ff7;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+
+.submitButton{
+  width: 100%;
+  background: linear-gradient(135deg, #4299e6, #000000);
+  color:#f7f5f9 ;
+  font-weight: bold;
+}
+.authbtn{
+  display: flex;
+  gap: 3rem;
+}
+
+

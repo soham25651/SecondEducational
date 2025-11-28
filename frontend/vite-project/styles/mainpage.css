@@ -1,0 +1,41 @@
+
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background: linear-gradient(135deg, #000000, #4383c7);
+
+} */
+
+.boxx{
+   width: 100vw;
+  height: 100vh;
+
+  padding: 0;
+  margin: 0;
+
+ display: flex;
+ flex-wrap: wrap;
+ overflow-x: hidden;
+ overflow-y: auto;
+  background: linear-gradient(135deg , rgb(107, 184, 235) , rgb(243, 240, 240));
+}
+
+
+.btnsub{
+    position: fixed;
+    width: 10rem;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border-radius: 5rem;
+       top: 90%;
+       left: 80%;
+    
+  
+  background: linear-gradient(135deg , rgb(55, 97, 121) , rgb(78, 75, 75));
+} 

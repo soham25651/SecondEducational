@@ -21,6 +21,17 @@ app.use(cors({
 
 
 
+
+// 🔥 Correct path to Vite build
+const distPath = path.join(__dirname, "frontend", "vite-project", "dist");
+
+app.use(express.static(distPath));
+
+// 🔥 This will handle refresh on any SPA route
+app.get("*", (req, res) => {
+  res.sendFile(path.join(distPath, "index.html"));
+});
+
 const connecting =  async()=>{
   try {//EducationalHub?retryWrites=true&w=majority    "mongodb+srv://omkhodke876_dbs:k7hAeY2CffoUv5aa@cluster0.imwvbqw.mongodb.net/EducationalHub"
     await mongoose.connect(process.env.DBS_URL);

@@ -10193,16 +10193,16 @@
         "id":1,
         "title":"Class - 5th",
          "subtopics":[
-          "Hindi",
-          "English",
-            "Math",
-            "EVS"
+          "Hindi-V",
+          "English-V",
+            "Math-V",
+            "EVS-V"
            
          ],
 
          "Class - 5th":[
           {
-            "Math":[
+            "Math-V":[
               {
                 "id":1,
                 "name":"1. Math - (CBSE)",
@@ -10362,7 +10362,7 @@
             ]
           },{
 
-            "English":[
+            "English-V":[
             {
               "id":1,
               "name":"1. English - (CBSE)",
@@ -10445,7 +10445,7 @@
             ]
 
           },{
-            "Hindi":[
+            "Hindi-V":[
               {
                 "id":1,
                 "name":"1. Hindi - (CBSE)",
@@ -10492,7 +10492,7 @@
 
             ]
           },{
-            "EVS":[
+            "EVS-V":[
               {
                 "id":1,
                 "name":"1. EVS - (CBSE)",
@@ -10715,16 +10715,16 @@
     "id":2,
     "title":"Class - 6th",
     "subtopics":[
-          "Hindi",
-          "English",
-            "Math CBSE",
-            "EVS"
+          "Hindi-VI",
+          "English-VI",
+            "Math CBSE-VI",
+            "EVS-VI"
            
          ],
          "Class - 6th":[
           {
            
-            "Hindi":[
+            "Hindi-VI":[
               { 
                 "id":1,
             "name":"1. Hindi -(MALHAR)",
@@ -10887,7 +10887,7 @@
          
 
   },{
-    "English":[
+    "English-VI":[
       {
         "id":1,
         "name":"1. English - (Poorvi) -CBSE",
@@ -11053,7 +11053,7 @@
 
     ]
   },{
-    "Math CBSE":[
+    "Math CBSE-VI":[
          {
   "id":1,
   "name":"1. chapter - 1 (CBSE - Ganita Prakash)",

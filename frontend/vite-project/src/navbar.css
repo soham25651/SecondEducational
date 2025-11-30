@@ -71,3 +71,19 @@
   color:white;
 cursor: pointer;
 }
+@media (max-width:450px ){
+
+    @media(max-height:600px) {
+
+    }
+      .backpage{
+  display: flex;
+  gap: 0.5rem;
+  position: fixed;
+  left: 90%;
+  top: 4%;
+  color:white;
+cursor: pointer;
+}
+
+  }

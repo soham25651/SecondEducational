@@ -115,12 +115,11 @@ height: 100%;
   width: 100vw;
 
   overflow: hidden;
-  font-family: 'Segoe UI', sans-serif;
-}
+  }
 
 /* ---------------------- SIDEBAR ---------------------- */
 .sidebar {
-  width: 350px;
+  width: 30%;
   background-color: #1f2a38;
   color: #fff;
 
@@ -128,25 +127,42 @@ height: 100%;
   overflow-y: auto;
   transition: all 0.3s ease;
 }
+
 .sidebarvideo{ 
-   width: 350px;
+   /* width: 100%;
   
   background-color: #1f2a38;
   color: #fff;
  
-  padding-right: 12px;
-padding-top: 150px;
+
   max-height: calc(100vh - 40px); 
 padding-bottom: 150px;
   overflow-y: auto;
+  transition: all 0.3s ease; */
+ width: 101%;
+  background-color: #1f2a38;
+  color: #fff;
+
+
+  overflow-y: auto;
   transition: all 0.3s ease;
-  
+padding-left:-10rem;
+padding-right: 3rem;
+  margin-right: 20rem;
+  margin-top: 2.3rem;
+    /* width: 30%;
+  background-color: #1f2a38;
+  color: #fff;
+
+
+  overflow-y: auto;
+  transition: all 0.3s ease; */
 }
 .sidebarleft{
-position: absolute;
+/* position: absolute;
 left: -1000px;
 
-     width: 350px;
+     width: 30px;
   
  
   color: #fff;
@@ -156,35 +172,40 @@ padding-top: 200px;
   max-height: calc(100vh - 40px); 
 padding-bottom: 150px;
   overflow-y: auto;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; */
+    width: 30%;
+  background-color: #1f2a38;
+  color: #fff;
 
+
+  overflow-y: auto;
+  transition: all 0.3s ease;
+     
 }
 
 /* Tablet & Small Laptop */
-@media (max-width: 992px) {
-  .sidebar {
-    width: 280px;
-  }
-}
+
 .toggle-sidebar{
     position: fixed;
-   left:-6px;
-    top: -9px;
+   left:-9px;
+    top: -4px;
  
  
     
   
     color: white;
-    font-size: 1.7rem;
-   padding-inline: 1.5rem;
+    font-size:1.5rem;
+   padding-inline: 1rem;
    padding-block: 0.3rem;
     border-radius: 6px;
     z-index: 10000;
     cursor: pointer;
+    
 }
 
+
 /* Mobile Sidebar */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .sidebar {
     position: fixed;
     height: 100vh;
@@ -211,13 +232,13 @@ padding-bottom: 150px;
     z-index: 10000;
     cursor: pointer;
   }
-}
+} */
 
 /* ---------------------- BUTTONS ---------------------- */
 .chapter-btn,
 .topic-btn,
 .link-btn {
-  width: 100%;
+  width: 96%;
   text-align: left;
   margin: 6px 0;
   padding: 10px 12px;
@@ -242,6 +263,7 @@ padding-bottom: 150px;
 .chapter-btn.active {
   background-color: #3498db;
   font-weight: bold;
+   width: 96%;
 }
 
 /* TOPIC BUTTON */
@@ -287,25 +309,33 @@ padding-bottom: 150px;
   color: #2c3e50;
 }
 
+
 /* Tablet */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .main-content {
     padding: 30px;
   }
-}
+} */
 
 /* Mobile */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .main-content {
     padding: 20px;
     margin-left: 0;
   }
-}
+} */
 
 /* ---------------------- VIDEO OVERLAY ---------------------- */
 .video-overlay {
  padding: 0;
  margin: 0;
+ display: grid;
+
+   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 100vh;
+  width: 100vw;
+
 }
 
 .video-container {
@@ -343,7 +373,7 @@ padding-bottom: 150px;
 /* Back button in video screen */
 .mainpage {
   position: fixed;
-  right: 16px;
+  right: 12px;
   top: 14px;
 
   color: white;
@@ -352,6 +382,7 @@ padding-bottom: 150px;
   display: flex;
   align-items: center;
   gap: 6px;
+  
 }
 
 /* ---------------------- SCROLLBAR ---------------------- */
@@ -388,9 +419,22 @@ height: 89px;
 ;   /* px-2 */
   margin-bottom: 8px;
   top: -39px;
-
+ grid-column: 1 / 12;
+  grid-row: 1 / 2;
+  background: #232323;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
+.videomain{
+  display: grid;
+    grid-column: 5 / 13;
+  grid-row: 2 / 13;
+  background: #ffffff;
+  overflow: auto;
+}
+
 
 /* Prev Button */
 .video-nav-btna {
@@ -427,7 +471,7 @@ height: 89px;
 /* Main Page Button */
 .mainpage {
   position: absolute;
-  width: 10%;
+  width: 20%;
   background-color: #16a34a; /* green-600 */
   color: white;
   padding: 6px ;
@@ -439,11 +483,11 @@ height: 89px;
   cursor: pointer;
   border: none;
   top: 2px;
-  right: 2px;
+  right: -92px;
 }
 .mainpage-in-sidebar{
    position: absolute;
-  width: 10%;
+  width: 15%;
   background-color: #16a34a; /* green-600 */
   color: white;
   padding: 6px ;
@@ -455,7 +499,7 @@ height: 89px;
   cursor: pointer;
   border: none;
   top: 2px;
-  right: -82px;
+  right: -160px;
 }
 .mainpage:hover {
   background-color: #22c55e; /* green-500 */
@@ -486,4 +530,74 @@ height: 89px;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
+}
+@media (max-width: 450px) {
+ .sidebar {
+  width: 450px;
+  background-color: #1f2a38;
+  color: #fff;
+
+
+  overflow-y: auto;
+  transition: all 0.3s ease;
+}
+  .main-content{
+   display: none;
+  }
+  .chapter-btn {
+  background-color: #2c3e50;
+  font-weight: 600;
+  color: white;
+  margin-left: -13px;
+}
+.topic-btn {
+  background-color:  #34495e;
+  margin-left: -30px;
+  width: 106%;
+}
+.link-btn {
+  background-color: #16a085;
+  margin-bottom: 6px;
+    width: 95%;
+}
+/* .videoURL{
+position: absolute;
+  transform: rotate(90deg);
+left: -25rem;
+  height: 23rem;
+  width: 70rem;
+
+} */
+
+.video-player {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: none;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+  transform-origin: center;
+  width: 100vh;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+}
+.iframe_When_handleone_false{
+   height: 95vh;
+   width: 80vw;
+}
+.iframe_When_handleone_true{
+      height: 95vh;
+   width: 100vw;
+}
+
+.relativenew{
+ display: flex;
 }

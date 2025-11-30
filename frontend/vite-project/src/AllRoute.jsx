@@ -142,9 +142,12 @@ useEffect(()=>{
   setTopicStart(start);
   setTopicEnd(end);
   setCurrentTime(0);
+//const embedUrl  = `https://www.youtube.com/embed/${videoId}?playsinline=1&mute=1`;
 
 
    const embedUrl = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&start=${start}&end=${end}&autoplay=1&controls=32`;
+//const embedUrl = `https://www.youtube.com/embed/${videoId}?playsinline=1&enablejsapi=1&mute=1&start=${start}`;
+
 
 // const embedUrl = `https://www.youtube.com/embed/${videoId}?start=${start}&end=${end}&autoplay=1&rel=0&modestbranding=1&controls=0&fs=0&disablekb=1&iv_load_policy=3`;
    //const embedUrl = `https://www.youtube.com/embed/${videoId}?start=${start}&end=${end}&autoplay=1&rel=0&modestbranding=1&controls=0&fs=0&disablekb=1&iv_load_policy=3&showinfo=0&playlist=${videoId}&loop=1`;
@@ -478,7 +481,7 @@ useEffect(() => {
             height: "100vh",
               background: "linear-gradient(135deg, #000000, #4383c7)",
             zIndex: 9999,
-            display: "flex",
+            display: "grid",
             justifyContent: "center",
             alignItems: "center",
           }}
@@ -489,7 +492,7 @@ useEffect(() => {
  <div className="toggle-sidebar" onClick={()=>handlesidebar()}>
   ☰
 </div>
-<div></div>
+
    
      <div className={handleone===false ? "sidebarvideo" : "sidebarleft"}
      style={{ height:'100vh' }}>
@@ -580,7 +583,8 @@ useEffect(() => {
           </ul>
           </div>
 
-          <div style={{ position: "relative", width: "90%", height: "90%" }}>
+
+ <div style={{ position: "relative", width: "90%", height: "90%" }}>
   {showReplay ? (
     <div
       style={{
@@ -619,9 +623,9 @@ useEffect(() => {
       >
         🔁 Replay
       </button>
-    </div>
-  ) : (
-<div className="relative w-full">
+    </div>) : (
+    
+<div className="relativenew w-full">
 
   {/* Top Navigation Buttons */}
   <div className="nav-buttons">
@@ -645,19 +649,36 @@ useEffect(() => {
   {/* Video */}
   
 
+<div className='videmain'>
 
- <iframe
+  <iframe
+ 
  id='myPlayer'
     key={videoUrl}
-    width={handleone===false ? "1220vw" : "1520vw"}
-    height="700vh"
+     
     src={videoUrl}
     title="YouTube Video"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
-    className="full-iframe rounded-xl shadow"
+    className={handleone==false ? "iframe_When_handleone_false": "iframe_When_handleone_true"}
   />
+</div>
+ 
+{/* full-iframe rounded-xl shadow videoURL */}
+  {/* <iframe
+  id="myPlayer"
+  key={videoUrl}
+  src={videoUrl}
+  title="YouTube Video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+  className={handleone ? "rotate-90" : "video-player"}
+></iframe> */}
+
+
+
   
  
 

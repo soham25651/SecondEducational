@@ -26,7 +26,7 @@ import logo from "./allphoto/logo.png.png";
 import { color, motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./navbar";
-import "./App.css";
+import "./Home.css"
 // import "../styles/home.css";
 
 export default function Home() {

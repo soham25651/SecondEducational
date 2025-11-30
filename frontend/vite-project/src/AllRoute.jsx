@@ -491,6 +491,8 @@ useEffect(() => {
              
  <div className="toggle-sidebar" onClick={()=>handlesidebar()}>
   ☰
+   
+
 </div>
 
    

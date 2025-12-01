@@ -12,17 +12,36 @@ import HTMLD from "../DBs.json";
 
 export default function SelectActionCard() {
   const navigate = useNavigate();
-const [allseleccards , setallSelCard] = useState([]);
+const [allseleccards , setallSelCard] = useState(null);
    useEffect(() => {
+
     const saved = localStorage.getItem("mainPageSelection");
-    if (saved) {
-      setallSelCard(JSON.parse(saved).allcard);
+
+    if (saved ) {
+const newcard = JSON.parse(saved).allcard;
+
+  // newcard.forEach((subcard) => {
+  //   console.log(subcard.title+"subtitle here"); // only if subcard has .title
+  // });
+
+      setallSelCard(newcard);
     
     }
   }, []);  
 
-  const cards = HTMLD || allseleccards;
-
+  const cards = HTMLD ||allseleccards;
+  // if (allseleccards[0].title) {
+  //   console.log(allseleccards[0].title+" allcardssek");
+  // }
+  if (allseleccards) {
+     cards.forEach((subcard) => {
+    console.log(subcard.title+"subtitle here"); // only if subcard has .title
+  });
+  }
+  
+  
+  
+   console.log(cards+' here cards');
   const classObj = {
     Coding: codingimage,
     Science: science,
@@ -35,6 +54,7 @@ const [allseleccards , setallSelCard] = useState([]);
 
 
   const handleCardClick = (index, title , totalcards) => {
+    console.log(totalcards.title+" totalcard");
     // Save to localStorage
     localStorage.setItem(
       "mainPageSelection",

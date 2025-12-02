@@ -74,6 +74,9 @@ const distPath = path.join(__dirname, "../frontend/vite-project/dist");
 
 // Serve static assets
 app.use(express.static(distPath));
+app.get("/favicon.ico", (req, res) => {
+  res.sendFile(path.join(distPath, "favicon.ico"));
+});
 
 // Express 5 requires RegExp instead of "*"
 app.get(/.*/, (req, res) => {

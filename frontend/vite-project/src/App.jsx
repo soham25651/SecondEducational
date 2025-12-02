@@ -20,12 +20,13 @@ function App(){
     <AuthProvider>
  <Routes>
 
-          {/* Public Routes */}
+          {/* Public Routes */} 
+          <Route path="/mainpage" element={<Mainpage />} />
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
 
           {/* Protected Routes */}
-          <Route path="/mainpage" element={<Mainpage />} />
+         
           <Route path="/coding" element={<Coding />} />
      
           <Route path="/AllRoute" element={<AllRoute />} />

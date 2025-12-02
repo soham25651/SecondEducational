@@ -54,7 +54,7 @@ let app = express();
 import mongoose from "mongoose";
 
 import userRoutes from "./routes/user.routes.js";
-
+const distPath = path.join(__dirname, "../frontend/vite-project/dist");
 // ------------------ Middlewares ------------------
 app.use(express.json({ limit: "40kb" }));
 app.use(express.urlencoded({ limit: "40kb", extended: true }));
@@ -70,7 +70,7 @@ app.use(
 app.use("/api/v2/users", userRoutes);
 
 // ------------------ Serve Vite Build ------------------
-const distPath = path.join(__dirname, "../frontend/vite-project/dist");
+
 
 // Serve static assets
 app.use(express.static(distPath));

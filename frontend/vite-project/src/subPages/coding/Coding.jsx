@@ -197,7 +197,10 @@ const handleSubTopicClick = (sub) => {
   //   return navigate("/login");
   // }
 
+
   // 2) Check access expiry (7 days rule)
+  // // 2) Check access expiry (7 days rule)
+
   // const now = new Date();
   // const expiry = new Date(auth.accessExpiry);
 

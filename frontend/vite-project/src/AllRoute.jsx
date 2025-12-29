@@ -497,7 +497,7 @@ useEffect(() => {
 
    
      <div className={handleone===false ? "sidebarvideo" : "sidebarleft"}
-     style={{ height:'100vh' }}>
+     style={{ height:'93vh' }}>
 
       {/* <ChevronLeft className='leftside' style={{
           position:'absolute',

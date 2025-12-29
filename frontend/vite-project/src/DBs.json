@@ -5,7 +5,9 @@
     "subtopics": [
       "Web Devlopment",
       "Artificial Intelligence",
-      "Cybersecurity"
+      "Cybersecurity",
+      "CS fundamentals",
+      "Quantitive Aptitude"
     ],
     "Coding": [
       {
@@ -10176,6 +10178,15 @@
             ]
           }
 
+        ]
+      },{
+        "id":4,
+        "title":"CS fundamentals",
+        "subtopics":[
+          "Bash",
+          "Network fundamental",
+          "Operating System",
+          "System Administration"
         ]
       }
   

@@ -139,17 +139,18 @@ height: 100%;
 padding-bottom: 150px;
   overflow-y: auto;
   transition: all 0.3s ease; */
- width: 101%;
+ width: 87%;
   background-color: #1f2a38;
   color: #fff;
 
 
   overflow-y: auto;
   transition: all 0.3s ease;
-padding-left:-10rem;
+padding-left: 3rem;
 padding-right: 3rem;
   margin-right: 20rem;
   margin-top: 2.3rem;
+  padding-bottom: 3rem;
     /* width: 30%;
   background-color: #1f2a38;
   color: #fff;

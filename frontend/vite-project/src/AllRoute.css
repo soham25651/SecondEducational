@@ -139,31 +139,31 @@ height: 100%;
 padding-bottom: 150px;
   overflow-y: auto;
   transition: all 0.3s ease; */
-<<<<<<< HEAD
+
  width: 87%;
-=======
+
  width: 96%;
->>>>>>> e617a3a700d88e867b5fb9d4863665905191490e
+
   background-color: #1f2a38;
   color: #fff;
 
 
   overflow-y: auto;
   transition: all 0.3s ease;
-<<<<<<< HEAD
+
 padding-left: 3rem;
 padding-right: 3rem;
   margin-right: 20rem;
   margin-top: 2.3rem;
   padding-bottom: 3rem;
-=======
+
 padding-left:-8rem;
 padding-right: 3rem;
   margin-right: 20rem;
   margin-top: 2.3rem;
   margin-left: 2rem;
  
->>>>>>> e617a3a700d88e867b5fb9d4863665905191490e
+
     /* width: 30%;
   background-color: #1f2a38;
   color: #fff;

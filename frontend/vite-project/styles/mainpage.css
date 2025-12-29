@@ -19,8 +19,8 @@
  flex-wrap: wrap;
  overflow-x: hidden;
  overflow-y: auto;
-  /* background: linear-gradient(135deg , rgb(107, 184, 235) , rgb(243, 240, 240)); */
-  background-color: red;
+  background: linear-gradient(135deg , rgb(107, 184, 235) , rgb(243, 240, 240));
+  /* background-color: red; */
 }
 
 

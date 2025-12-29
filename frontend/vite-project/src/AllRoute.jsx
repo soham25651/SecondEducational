@@ -652,13 +652,13 @@ useEffect(() => {
   {/* Video */}
   
 
-<div className='videmain'>
+<div className='videmain' >
 
   <iframe
  
  id='myPlayer'
     key={videoUrl}
-     
+    
     src={videoUrl}
     title="YouTube Video"
     frameBorder="0"
